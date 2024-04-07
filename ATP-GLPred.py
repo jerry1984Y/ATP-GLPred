@@ -284,6 +284,7 @@ if __name__ == "__main__":
     a = str(datetime.datetime.now())
     a = a.replace(':', '_')
     storeapl = 'ATP-Multi/ATP288_MsCNN' + '_' + a + '.pkl'
-    #train(train_taskfile,storeapl)
-    test(test_taskfie,'ATP-Multi/ATP__2024-01-20 20_23_00.791050.pkl')
+    train(train_taskfile,storeapl)
+    test(test_taskfie,storeapl)
+    #test(test_taskfie,'ATP-Multi/ATP__2024-01-20 20_23_00.791050.pkl')
 
