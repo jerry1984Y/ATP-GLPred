@@ -1,6 +1,9 @@
 ## ATP-GLPred
 ATP-GLPred is a predictor for predicting protein-ATP binding residues 
 
+
+To address the issue of extracting discriminative features from protein sequences in ligand binding site prediction, a method named ATP-Pred is proposed based on large language models. This method generates high-quality protein sequence features using a large language model and utilizes a multi-scale convolutional network to extract local features, effectively addressing the challenge of window adaptability faced by traditional methods that rely on fixed-size sliding windows for feature processing. Furthermore, this method employs self-attention mechanisms to explore and reveal potential long-range dependencies at the whole sequence level, aiming to capture distant interactions between binding sites. Benchmarking experiments demonstrate that ATP-Pred significantly improves the performance of ligand binding site prediction.
+
 # 1. Requirements
 
 Python >= 3.10.6
