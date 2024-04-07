@@ -84,7 +84,8 @@ if __name__ == "__main__":
 
     #extratdata('../DataSet/all5_40_remove_test.fasta', '../DataSet/prot_embedding/')
     #extratdata('../DataSet/regular_40_remove_test.fasta', '../DataSet/prot_embedding/')
-    extratdata('../DataSet/ATP-202.txt', '../DataSet/prot_embedding/')
-    # extratdata('../DataSet/atp-388.txt', '../DataSet/prot_embedding/')
-    # extratdata('../DataSet/atp-549.txt', '../DataSet/prot_embedding/')
+    extratdata('../DataSet/atp-17-for-227.txt', '../DataSet/prot_embedding/')
+    extratdata('../DataSet/atp-227.txt', '../DataSet/prot_embedding/')
+    extratdata('../DataSet/atp-388.txt', '../DataSet/prot_embedding/')
+    extratdata('../DataSet/atp-41-for-388.txt', '../DataSet/prot_embedding/')
     print('----finish-------')
